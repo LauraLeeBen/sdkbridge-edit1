@@ -216,7 +216,7 @@ Response
 | public | boolean | If `true`, this marking and its values can be provided to registered devices that request a list of markings. Useful for providing users with a list of markings to select to assign to protected content. |
 | adminOnly | boolean | If `true`, values can only be administratively added to this marking. If `false`, values will be collected whenever a registered device protects content using this marking. Generally, a `public=true` marking also is configured `adminOnly=true`. | 
 | detail/dataType | string | Only `string` is supported. |
-| detail/default | boolean | If `true`, the marking is built-in to the ionic platform and cannot be removed |
+| detail/default | boolean | If `true`, the marking is built-in to the Ionic platform and cannot be removed |
 | detail/description | string | Description of the marking. |
 | detail/values | array | Array of marking values |
 | detail/values/name | string | Unique name used as key and policy attribute value |
